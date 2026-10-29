@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: luckydemo-casino
+    name: mattdlvx
     runtime: node
     plan: free
     buildCommand: npm install

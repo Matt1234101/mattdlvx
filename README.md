@@ -1,4 +1,4 @@
-# LuckyDemo — Play-Money Casino Demo
+# Mattdlvx — Play-Money Casino Demo
 
 A mobile-first casino-style web app that uses **play credits only**. There is no real money, no payment provider, no withdrawals — credits have no cash value. The "Deposit" button simply grants free demo credits (capped at 5,000 per 24 h).
 

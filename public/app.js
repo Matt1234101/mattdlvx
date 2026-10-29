@@ -1,4 +1,4 @@
-// LuckyDemo frontend — play credits only.
+// Mattdlvx frontend — play credits only.
 const $ = (s, el = document) => el.querySelector(s);
 const app = $('#app');
 let me = null, config = null;
@@ -65,7 +65,7 @@ const tileHTML = (g) => `<a class="tile t-${g.id}" href="#/game/${g.id}"><span c
 function authView() {
   let mode = 'signup';
   app.innerHTML = `<div class="auth">
-    <h1>Lucky<span>Demo</span></h1>
+    <h1>Matt<span>dlvx</span></h1>
     <p class="sub">A play-money casino demo. New players get 10,000 free credits.<br>Credits have no cash value.</p>
     <div class="panel">
       <div class="tabs"><button data-m="signup" class="on">Sign up</button><button data-m="login">Log in</button></div>
@@ -108,7 +108,7 @@ function homeView() {
   </section>
   <div class="section-head"><div class="arrows"><button id="cl">‹</button><button id="cr">›</button></div><a href="#/games">All games ›</a></div>
   <div class="carousel" id="carousel">${GAMES.map(tileHTML).join('')}</div>
-  <p class="legal">LuckyDemo uses play credits only. Nothing here can be bought, cashed out or exchanged for money.</p>`;
+  <p class="legal">Mattdlvx uses play credits only. Nothing here can be bought, cashed out or exchanged for money.</p>`;
   $('#bonusCard').onclick = openBonuses;
   const c = $('#carousel');
   $('#cl').onclick = () => c.scrollBy({ left: -150, behavior: 'smooth' });
